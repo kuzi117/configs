@@ -5,4 +5,4 @@
     bold_red="$(tput bold && tput setaf 9)"
     bold_blue="$(tput bold && tput setaf 4)"
     nofmt="$(tput sgr 0)"
-    PS1='${debian_chroot:+($debian_chroot)}${bold_green}\u@${bold_red}\h${nofmt}:${bold_blue}\w${nofmt}\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[${bold_green}\]\u@\[${bold_red}\]\h\[${nofmt}\]:\[${bold_blue}\]\w\[${nofmt}\]\$ '
